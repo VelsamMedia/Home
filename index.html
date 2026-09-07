@@ -1,0 +1,144 @@
+<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velsam Media | Creative • Media • Technology</title>
+
+  <meta name="description" content="Soluciones innovadoras en creación de contenido, gestión de medios y tecnología.">
+    <!-- Tailwind CSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navegación -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <!-- Tu logo simplificado o texto -->
+                <span class="text-2xl font-black tracking-tight text-slate-900">
+                    velsam <span class="gradient-text">media</span>
+                </span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#servicios" class="hover:text-cyan-600 transition">Servicios</a>
+                <a href="#nosotros" class="hover:text-cyan-600 transition">Nosotros</a>
+                <a href="#contacto" class="hover:text-cyan-600 transition">Contacto</a>
+            </nav>
+            <a href="#contacto" class="gradient-bg text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:shadow-lg hover:shadow-cyan-500/25 transition">
+                Cotizar Proyecto
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-20 text-center md:py-32">
+        <span class="text-xs font-bold uppercase tracking-widest text-cyan-600 bg-cyan-50 px-4 py-1.5 rounded-full border border-cyan-100">
+            Creative • Media • Technology
+        </span>
+        <h1 class="mt-6 text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-tight">
+            Tu Socio Estratégico en <span class="gradient-text">Medios Digitales</span> y Tecnología
+        </h1>
+        <p class="mt-6 text-lg text-slate-600 max-w-2xl mx-auto">
+            Impulsamos marcas mediante la creación de contenido de alto impacto, estrategia de distribución e integración tecnológica avanzada.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#servicios" class="gradient-bg text-white font-semibold px-8 py-3.5 rounded-full shadow-lg shadow-cyan-500/20 hover:opacity-95 transition">
+                Explorar Servicios
+            </a>
+            <a href="#contacto" class="bg-white border border-slate-200 text-slate-700 font-semibold px-8 py-3.5 rounded-full hover:bg-slate-50 transition">
+                Agendar Consulta
+            </a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tarjeta 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center mb-6">
+                    <i data-lucide="video" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Creative</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Creación de contenido digital, guiones, producción audiovisual y estrategias visuales adaptadas a plataformas sociales.
+                </p>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6">
+                    <i data-lucide="share-2" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Media</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Gestión de plataformas sociales, amplificación de contenido, distribución estratégica y crecimiento en TikTok y redes.
+                </p>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6">
+                    <i data-lucide="cpu" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Technology</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Integraciones tecnológicas, automatización de flujos de trabajo, análisis de datos y desarrollo web a medida.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="max-w-3xl mx-auto px-6 py-16">
+        <div class="bg-white p-8 md:p-12 rounded-3xl border border-slate-100 shadow-xl">
+            <h2 class="text-2xl font-bold text-slate-900 text-center mb-2">Trabajemos Juntos</h2>
+            <p class="text-slate-600 text-center text-sm mb-8">Déjanos un mensaje y te responderemos en menos de 24 horas.</p>
+            
+            <form class="space-y-4" action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensaje enviado.');">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Nombre</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Correo Electrónico</label>
+                    <input type="email" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Mensaje</label>
+                    <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500"></textarea>
+                </div>
+                <button type="submit" class="w-full gradient-bg text-white font-semibold py-3.5 rounded-xl hover:opacity-95 transition">
+                    Enviar Mensaje
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer exigido por plataformas (TikTok) -->
+    <footer class="border-t border-slate-200 bg-white mt-16">
+        <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+            <p>&copy; 2026 Velsam Media. Todos los derechos reservados.</p>
+            <div class="flex gap-6">
+                <a href="#privacidad" onclick="alert('Política de Privacidad: Velsam Media respeta la privacidad de sus usuarios y no comparte información personal con terceros sin consentimiento.')" class="hover:underline">Política de Privacidad</a>
+                <a href="#terminos" onclick="alert('Términos de Servicio: El uso de este sitio implica la aceptación de nuestras condiciones de servicio.')" class="hover:underline">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
